@@ -1,0 +1,498 @@
+// ------------------------ IMPORTS -----------------------//
+@import 'grillas';
+@import 'bodycustom';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+// ------------------------ BLOQUES --------------------------//
+#logoOsvaldo
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+.encabezado 
+{
+    text-align: center;
+    background-image: linear-gradient(to bottom, black,#413937);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.encabezado__nav
+{
+
+
+    ul
+    {
+        list-style: none;
+        font-size: 0;
+        padding: 0px;
+    
+    }
+
+       li
+        {
+          display:inline-block;
+          font-size: 20px;
+          position: relative;
+          text-align: center;
+          width: 19%;
+          border-width: thick;
+        }
+        li:hover a
+        {
+          color: rgb(247, 217, 153);
+        }
+
+        ul ul
+        {
+          position: absolute;
+          display: none;
+        }
+
+        ul ul li
+        { 
+          display: block;
+            
+        }
+            ul li:hover ul
+            {
+                display: block;
+                background-color: rgb(255, 235, 180);
+                width: 100%;
+                text-align: center;
+                padding: 0px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-shadow: 1px 1px 2px black;
+                font-family: 'Big Shoulders Display';
+              }
+             
+}
+
+.encabezado__titulo
+{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.section__form
+{
+    background: url(../agencia/formimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section
+{
+    background-color: gray ;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.section:hover
+{
+    background: #9DC7C8;
+
+}
+
+.section__titulo 
+{
+    font-size: 200%;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+.section__titulo__g
+{
+    font-size: 200%;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    background-image: linear-gradient(to right,#332c2a,#8d7f7c );
+}
+.division__p
+{
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+.section__em
+{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.division
+{
+    text-align: center;
+    transition: all 0.7s ease;
+    background: url("../agencia/agencia11.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.division:hover
+{
+    background: url("../agencia/agencia13.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+.division__titulo
+{
+    text-transform: capitalize;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+.articulo 
+{
+    margin: 30px;
+    padding: 30px;
+    border-style: solid; 
+    border-color:#746764;
+    text-align: center; 
+}
+.articuloBackground 
+{
+    background: url(../agencia/agencia12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.articulo__titulo
+{
+    
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    margin-bottom: 6rem;
+}
+.articulo__parrafo 
+{
+    
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    text-align: center;
+    margin-top: 12rem;
+}
+.articulo__span 
+{
+    font-weight: bold;
+}
+
+.piePagina
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.piePaginaSection 
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: black;
+}
+.piePagina_ul
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0px;
+    ul
+    {
+        list-style: none;
+        font-size: 0;
+        padding: 0px;
+    
+    }
+        li:hover a
+        {
+          color: rgb(247, 217, 153);
+        }
+            ul li:hover ul
+            {
+                display: block;
+                background-color: rgb(247, 247, 247);
+                width: 100%;
+                text-align: center;
+                padding: 0px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-shadow: 1px 1px 2px black;
+                font-family: 'Big Shoulders Display';
+              }
+}
+.piePagina ul li a img 
+{
+    align-items: stretch;
+    height: auto;
+    width: auto;
+
+}
+.piePaginaP
+{
+    color: white;
+    text-shadow: 1px 1px 2px white;
+}
+.pie__boton
+{
+    padding-bottom: 1rem;
+}   
+
+.secStock
+{
+    background-image:linear-gradient(to left,#332c2a,#8d7f7c);
+    table-layout:auto;
+    width: 100%;
+}
+
+.secStock__titulo
+{
+    font-weight: bold;
+    color: white;
+
+    
+}
+
+.secStock__tabla
+{
+    table-layout: fixed;
+    width: 100%;
+    text-decoration-color: white ;
+    color: white;
+}
+
+.divStock
+{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-image: url(../agencia/agencia14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.divStock__lista 
+{
+    list-style-type: upper-roman;
+    list-style-position:inside;
+}
+.input__size 
+{
+    height: 24px;
+    font-size: 14px;
+}
+.div_Stock_Input
+{
+    color: white;
+    text-decoration-color: white;
+}
+
+.encNosotros 
+{
+    @extend .encabezado;
+}
+
+.encNosotros__nav
+{
+   @extend .encabezado__nav;
+}
+
+.pieNostros 
+{
+   @extend .piePagina;
+}
+
+.encContactanos 
+{
+    @extend .encabezado;
+}
+
+.encContactanos__nav 
+{
+  @extend .encabezado__nav;
+}
+
+.pieContactanos
+{
+  @extend .piePagina;
+}
+
+.encGaleria 
+{
+    @extend .encabezado;
+}
+.encGaleria__nav 
+{
+   @extend .encabezado__nav;
+}
+.pieGaleria
+{
+    @extend .piePagina;
+}
+// ------------------- TRANSFORMS --------------------//
+#tituloHeader:hover
+{
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+}
+// ---------------- MEDIA CONTIONS ------------------//
+@media only screen and (max-width:425px)
+{
+    .encabezado__nav li
+    {
+        display:block;
+        margin-top: 1em;
+        margin-bottom: 1rem;
+        width: 100% ;
+        line-height: 2rem;
+        justify-content: center;
+    }    
+    
+        .encNosotros__nav li
+    {
+        display:block ;
+        margin-top: 1em;
+        margin-bottom: 1rem;
+        line-height: 2rem;
+        column-gap: 1px;
+    }
+    .encabezado__nav li
+    {
+        box-shadow: #332c2a 0px 20px 30px -10px;
+    }
+        .grilla 
+        {
+            display: block;
+            
+        }
+         table
+        {
+            width: 100%;
+        }
+       
+        
+    }
+    
+    .displayEnBLoque
+    {
+     display: flex;
+     flex-direction: column;
+     margin: none;
+     padding: none;
+
+    }
+    .secGaleria 
+    {
+
+        justify-content: center;
+        
+
+         img 
+            {
+                align-items:flex-start;
+                
+            }
+}
+    
+
+    .piePaginaSection
+    {
+        display:block;
+        width: 100% ;
+        line-height: 2rem;
+        justify-content: center;
+
+        li 
+        {
+            align-items: center;
+        }
+    }
+    
+    
+    @media only screen and (max-width:520px)
+    {
+        .division
+        {
+            background-image: url(../agencia/agencia15.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .division:hover
+        {
+           background-image: none;
+           
+        }
+        .division__titulo
+        {
+            font-size: 12px;
+        }
+        .articulo
+        {
+            font-size: 12px;
+        }
+        .section__form
+        {
+            
+            background-size: cover;
+        }
+        .secNosotros
+        {
+            place-content: center;
+            width: 100%;
+            align-items:flex-start;
+            justify-content: center;
+            margin: 0px;
+        }
+        .secNosotros img
+        {
+          height: 200px;
+          width: 200px;
+          display: flex;
+          flex-direction:row;
+          margin: 0px;
+        
+        }
+        
+    }
+
+    
+
+    @media only screen and (max-width:768px)
+    {
+         .grillaHome
+         {
+             grid-template-columns: 1fr;
+             grid-template-rows: 1fr 1fr 1fr 1fr;
+             margin: none;
+             padding: none;
+         }
+         .articuloBackground 
+        {
+          background: url(../agencia/iconmarca.png);
+          background-repeat: repeat;
+          background-size: 50%;
+        }
+        .articulo__parrafo
+        {
+            background-color: black;
+        }
+        .articulo__titulo
+        {
+            background-color: black;
+        }
+
+    }

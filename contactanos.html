@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <meta charset="utf-8">
+    <title> contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <meta name="description" content="Osvaldo Automotores La Plata, el consecionario Multimarca mas grande de la zona. vení a conocernos">
+    <meta name="keywords" content="Consecionario, Autos, Chevrolet, Renault, Ford, Feugeot, Compra, Ventas, Financiación, Stock, Consulta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body class=" displayEnBloque bodyStyle">
+ <header class="encContactanos">
+        <img id="logoOsvaldo" src="logo/osvaldoLogo.png" alt="imagen consecionario" height="80px" width="180px" > 
+<!-- menu de opciones-->
+    <nav class="encContactanos__nav container">
+        <ul>
+            <li><a href="index.html" button type="button" class="btn btn"  > Home </a></li>
+            <li><a href="nosotros.html" button type="button" class="btn btn">Nosotros</button></a></li>
+            <li><a href="stock.html" button type="button" class="btn btn" > Stock </a></li>
+            <li><a href="contactanos.html" button type="button" class="btn btn"> Contactanos </a></li>
+            <li><a href="galeria.html" button type="button" class="btn btn">Galeria</a>
+           <ul>
+            <li><a href="galeria.html" button type="button" class="btn btn">Vendidos</a></li>
+            <li><a href="galeria.html" button type="button" class="btn btn">Ingresando</a></li>
+           </ul>
+        </ul>
+    </nav>
+ </header> 
+<!-- formulario de contacto -->
+<section class="section__titulo section__form">
+    <h1><strong> Hacé tu consulta, respondemos a la brevedad.</strong></h1>
+       <form id="formTransform">
+        <fieldset>
+            <legend>
+                 <label style="font-size:14px" for="nombre">Nombre</label>
+                 <input class="input__size" type="text" id="nombre" name="nombre">
+
+        <br>
+
+                 <label style="font-size: 14px;" for="numero de contacto"> Numero de contacto</label>
+                 <input class="input__size" type="number" id="numerodecontacto" name="numero de contacto" height="70%">
+        <br>
+                 <label style="font-size: 14px;" for="seleccione el auto">Selecciona el auto</label>
+                 <select class="input__size" style="height: 27px;" name="Autos"> 
+    
+                  <option style="font-size: 10px;" value="renault symbol"> Renault Symbol </option>
+                  <option style="font-size: 10px;" value="peugeot 408"> Peugeot 408 </option>
+                  <option style="font-size: 10px;" value="otros autos"> otros autos </option>
+ 
+                 </select>
+
+        <br>
+
+                 <label style="font-size:14px" for="consulta">Consulta</label>
+                 <input class="input__size" type="text" id="consulta" name="consulta">
+
+        <div>
+                    Recibir mensajes con actualizaciones
+    
+        </div>
+    
+                      <input style="height: 27px;" type="checkbox" name="aceptar" value="1">
+
+        <br>
+                      <input style="height: 27px;" class="btn btn-light" id="btn" value="Enviar" onclick='alert(`Los datos fueron enviados correctamente!`)' >
+                      <input style="height: 27px;" class="btn btn-light" type="reset" value="Limpiar">
+
+            </legend>
+        </fieldset>
+      </form>
+      <h2>Gracias por contactarnos! responderemos a la brevedad tu consulta!</h2>
+      
+ </section>
+ 
+<!-- pie de pagina -->
+<footer class="piepagina piePaginaSection">
+    <section>
+       <ul class="piePagina_ul">
+        <li class="pie__boton"><a href="https://www.instagram.com/osvaldoautomotores/" button type="button" class="btn btn-dark btn-lg"> Instagram</a></li>
+           <li class="pie__boton"><a href="https://www.facebook.com/AutomotoresOsvaldo/" button type="button" class="btn btn-dark btn-lg">Facebook</a></li>
+           <li class="pie__boton"><a href="https://www.instagram.com/jdmesteticavehicular/?hl=es-la" button type="button" class="btn btn-dark btn-lg">Instagram JDMdetail</a></li>
+       </ul>
+        <p class="piePaginaP"> 
+            Las imágenes publicadas en este sitio son de carácter ilustrativo.
+            Osvaldo Automotores Av.13 esquina 73, La Plata.
+            Web designers C.O. La plata.
+        </p>
+ 
+   </section>
+  </footer>
+<script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+

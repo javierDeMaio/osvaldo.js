@@ -1,0 +1,23 @@
+
+[
+    {
+    "marca":"Ford",
+    "modelo":"Focus 2.0",
+    "kilometros": 150000, 
+    "precio": 1250000
+    },
+    {
+    "marca": "Renault",
+    "modelo": "Kwid zen 1.0",
+    "kilometros": 30000,
+     "precio": 1000000
+    },
+    {
+    "marca":"fiat",
+    "modelo":"Argo 1.4 T",
+    "kilometros": 2000,
+    "precio": 2050000
+    }
+]
+
+
